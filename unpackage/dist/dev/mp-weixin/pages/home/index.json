@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "发财",
+  "navigationBarBackgroundColor": "#F4F5F7",
+  "backgroundColor": "#F4F5F7",
+  "usingComponents": {
+    "base-card": "../../components/baseCard/index",
+    "avatar": "./avatar/index",
+    "data-panel": "./data-panel/index"
+  }
+}

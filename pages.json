@@ -1,17 +1,19 @@
 {
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
 		{
-			"path": "pages/index/index",
+			"path": "pages/home/index",
 			"style": {
-				"navigationBarTitleText": "uni-app"
+				"navigationBarTitleText": "发财",
+				"navigationBarBackgroundColor": "#F4F5F7",
+				"backgroundColor": "#F4F5F7"
 			}
 		}
 	],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
-		"navigationBarTitleText": "uni-app",
-		"navigationBarBackgroundColor": "#F8F8F8",
-		"backgroundColor": "#F8F8F8"
+		"navigationBarTitleText": "发财",
+		"navigationBarBackgroundColor": "#F4F5F7",
+		"backgroundColor": "#F4F5F7"
 	},
 	"uniIdRouter": {}
 }

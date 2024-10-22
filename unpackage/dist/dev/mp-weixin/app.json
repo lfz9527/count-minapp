@@ -1,0 +1,12 @@
+{
+  "pages": [
+    "pages/home/index"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "发财",
+    "navigationBarBackgroundColor": "#F4F5F7",
+    "backgroundColor": "#F4F5F7"
+  },
+  "usingComponents": {}
+}

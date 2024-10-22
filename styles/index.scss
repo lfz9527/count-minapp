@@ -1,0 +1,30 @@
+@import './var.scss';
+
+.page-content{
+	height: 100vh;
+	padding: 16px;
+	background: $bg-color;
+}
+
+
+.flex {
+	display: flex;
+}
+
+.center{
+	@extend .flex;
+	align-items: center;
+	justify-content: center;
+}
+.around{
+	@extend .flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.between{
+	@extend .flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+
