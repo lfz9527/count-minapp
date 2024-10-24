@@ -3,5 +3,6 @@
     "projectname": "count-minapp",
     "setting": {
         "compileHotReLoad": false
-    }
+    },
+    "libVersion": "2.33.0"
 }

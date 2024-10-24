@@ -5,6 +5,7 @@
   "usingComponents": {
     "base-card": "../../components/baseCard/index",
     "avatar": "./avatar/index",
-    "data-panel": "./data-panel/index"
+    "data-panel": "./data-panel/index",
+    "base-chart": "../../components/baseChart/index"
   }
 }

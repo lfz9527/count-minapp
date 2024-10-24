@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "piaoyi-progress-bar": "../../uni_modules/piaoyi-progress-bar/components/piaoyi-progress-bar/piaoyi-progress-bar"
+  }
+}

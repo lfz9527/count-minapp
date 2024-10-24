@@ -1,0 +1,1 @@
+<view class="data-v-a2a09e7d"><piaoyi-progress-bar wx:if="{{a}}" class="data-v-a2a09e7d" u-i="a2a09e7d-0" bind:__l="__l" u-p="{{a}}"></piaoyi-progress-bar></view>

@@ -24,7 +24,6 @@
 /* 透明度 */
 /* 文章场景相关 */
 .page-content.data-v-4978fed5 {
-  height: 100vh;
   padding: 16px;
   background: #F4F5F7;
 }
@@ -57,4 +56,93 @@
 }
 .data-panel.data-v-4978fed5 {
   margin-top: 40px;
+}
+.block.data-v-4978fed5 {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 20px;
+}
+.block .scan.data-v-4978fed5 {
+  width: 50px;
+  height: 50px;
+}
+.block .body.data-v-4978fed5 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  justify-content: center;
+  height: 145px;
+  color: #353E6C;
+  font-size: 16px;
+}
+.block .body .room-num.data-v-4978fed5 {
+  font-size: 48px;
+  line-height: 1;
+}
+.block .open.data-v-4978fed5 {
+  background: #d3474a;
+  padding: 12px;
+  height: 145px;
+}
+.block .open .out-border.data-v-4978fed5 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  border: 1px solid #d7bc85;
+  height: 100%;
+  border-radius: 6px;
+}
+.block .open .out-border .start-cir.data-v-4978fed5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 58px;
+  height: 58px;
+  background: #ffdf9d;
+  border-radius: 50%;
+  margin-bottom: 16px;
+}
+.block .open .out-border .start-cir .open-img.data-v-4978fed5 {
+  width: 20px;
+  height: 20px;
+}
+.block .open .out-border .create-new-room.data-v-4978fed5 {
+  height: 13.5px;
+  width: 73.5px;
+}
+.footer.data-v-4978fed5 {
+  position: fixed;
+  bottom: 0;
+  lef: 0;
+  right: 0;
+  width: 100%;
+}
+.footer-content.data-v-4978fed5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+  width: 100%;
+  height: 80px;
+  font-size: 14px;
+  background-color: #fff;
+  color: #353E6C;
+  box-shadow: 0px 2px 13px 0px rgba(0, 0, 0, 0.25);
+}
+.footer-content .item.data-v-4978fed5 {
+  position: relative;
+}
+.footer-content .item.data-v-4978fed5:not(:last-child)::before {
+  content: "";
+  position: absolute;
+  width: 1px;
+  top: 50%;
+  right: -24px;
+  transform: translateY(-50%);
+  height: 14px;
+  background-color: #353E6C;
 }

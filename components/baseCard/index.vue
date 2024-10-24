@@ -1,13 +1,21 @@
 <template>
 	<view class="card-wrap">
-		<view class="card-content">
+		<view :class="{
+			'card-content':true,
+			'is-padding':props.padding
+		}">
 			<slot></slot>
 		</view>
 	</view>
 </template>
 
 <script setup lang="ts">
-
+	interface Props {
+		padding : boolean
+	}
+	const props = withDefaults(defineProps<Props>(), {
+		padding: true
+	})
 </script>
 
 <style lang="scss" scoped>
@@ -22,7 +30,11 @@
 		&-content {
 			border-radius: 16px;
 			background-color: #fff;
-			padding: 12px;
+			overflow: hidden;
 		}
+	}
+
+	.is-padding {
+		padding: 12px;
 	}
 </style>

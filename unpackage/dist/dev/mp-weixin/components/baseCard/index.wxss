@@ -30,5 +30,8 @@
 .card-content.data-v-21b1d6e2 {
   border-radius: 16px;
   background-color: #fff;
+  overflow: hidden;
+}
+.is-padding.data-v-21b1d6e2 {
   padding: 12px;
 }

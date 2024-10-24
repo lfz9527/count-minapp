@@ -1,11 +1,13 @@
 "use strict";
 const common_vendor = require("../../common/vendor.js");
+const common_assets = require("../../common/assets.js");
 if (!Math) {
-  (Avatar + DataPanel + BaseCard)();
+  (Avatar + DataPanel + BaseCard + BaseChart)();
 }
 const BaseCard = () => "../../components/baseCard/index.js";
 const Avatar = () => "./avatar/index.js";
 const DataPanel = () => "./data-panel/index.js";
+const BaseChart = () => "../../components/baseChart/index.js";
 const _sfc_main = /* @__PURE__ */ common_vendor.defineComponent({
   __name: "index",
   setup(__props) {
@@ -20,6 +22,12 @@ const _sfc_main = /* @__PURE__ */ common_vendor.defineComponent({
           dataLabel: "输",
           dataNum: "1",
           dataPercent: "0.2"
+        }),
+        c: common_assets._imports_0,
+        d: common_assets._imports_1,
+        e: common_assets._imports_2,
+        f: common_vendor.p({
+          padding: false
         })
       };
     };
